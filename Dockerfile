@@ -18,4 +18,4 @@ ADD swarm-agent.sh /usr/bin/swarm-agent.sh
 #
 RUN chmod 777 /usr/bin/swarm-agent.sh
 #
-# ENTRYPOINT /usr/bin/swarm-agent.sh
+ENTRYPOINT /usr/bin/swarm-agent.sh
